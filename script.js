@@ -12,6 +12,7 @@ let n = 10;
 list.addEventListener("scroll", ()=>{
   // console.log("used scrolled the list");
   if(list.scrollHeight - list.scrollTop - list.clientHeight < 1){
+    
     // console.log("you reached the end");
     list.innerHTML += `
     <li>Item ${n+1}</li>
