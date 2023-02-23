@@ -1,5 +1,4 @@
 //your code here!
-//solution
 const list = document.getElementById('infi-list');
 
 // Add 10 list items by default
@@ -20,3 +19,5 @@ list.addEventListener('scroll', () => {
     }
   }
 });
+
+//solution
